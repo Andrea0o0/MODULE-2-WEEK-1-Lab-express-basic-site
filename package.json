@@ -4,7 +4,8 @@
   "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,11 @@
     "url": "https://github.com/Andrea0o0/MODULE-2-WEEK-1-Lab-express-basic-site/issues"
   },
   "homepage": "https://github.com/Andrea0o0/MODULE-2-WEEK-1-Lab-express-basic-site#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
   }
 }

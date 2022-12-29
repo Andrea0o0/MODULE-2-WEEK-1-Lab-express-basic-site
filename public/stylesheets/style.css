@@ -1,0 +1,38 @@
+body{
+    background-color: #e1dac7;
+    font-family: Montserrat;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#list-pages{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:40px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #A8ACAF; 
+}
+
+a:visited { 
+    color: #233853;
+    font-weight: bold;
+}
+
+/*ABOUT */
+.about {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
